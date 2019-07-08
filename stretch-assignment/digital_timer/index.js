@@ -8,4 +8,7 @@ window.onload = function(){
     const linkMsTen = document.getElementById('msTens');
     const linkSecOne = document.getElementById('secondOnes');
     const linkSecTen = document.getElementById('secondTens');
+
+    msHun++
+    
 }

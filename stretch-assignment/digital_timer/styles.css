@@ -2,8 +2,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
+span {
+  font-style: italic;
+}
 .digit {
   display: inline-block;
   font-size: 80px;
