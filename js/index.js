@@ -9,7 +9,7 @@ const siteContent = {
     "img-src": "img/logo.png"
   },
   "cta": {
-    "h1": "DOM Is Awesome",
+    "h1": "DOM\nIs\n Awesome",
     "button": "Get Started",
     "img-src": "img/header-img.png"
   },
@@ -37,8 +37,7 @@ const siteContent = {
   },
 };
 
-//Example: Update the img src for the logo
-
+// Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
