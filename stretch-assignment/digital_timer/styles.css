@@ -8,6 +8,7 @@ body {
 span {
   font-style: italic;
 }
+
 .digit {
   display: inline-block;
   font-size: 80px;
