@@ -41,20 +41,48 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
+// const nav = document.querySelector('nav');
+
+// const newNav1 = document.createElement('a');
+// const newNavText1 = document.createTextNode('Updates');
+// newNav1.appendChild(newNavText1);
+// nav.prependChild(newNav1);
+
+// const newNav2 = document.createElement('a');
+// const newNavText2 = document.createTextNode('Resources');
+// newNav2.appendChild(newNavText2);
+// nav.appendChild(newNav2);
+
+// let navLinks = document.querySelectorAll('nav a');
+// navLinks[0].textContent = siteContent['nav']['nav-item-1'];
+// navLinks[1].textContent = siteContent['nav']['nav-item-2'];
+// navLinks[2].textContent = siteContent['nav']['nav-item-3'];
+// navLinks[3].textContent = siteContent['nav']['nav-item-4'];
+// navLinks[4].textContent = siteContent['nav']['nav-item-5'];
+// navLinks[5].textContent = siteContent['nav']['nav-item-6'];
+
+// navLinks.forEach(function(colorValue){
+//   colorValue.style.color = 'green'
+// }
+// )
+
 const snippetImg = document.getElementById("cta-img");
 snippetImg.setAttribute('src', siteContent['cta']['img-src']);
 
+
 const nav = document.querySelector('nav');
-const newTag1 = document.createElement('a');
-const tag1Text = document.createTextNode('Resources');
-const newTag2 = document.createElement('a');
-const tag2Text = document.createTextNode('Extras');
+const newNav1 = document.createElement('a');
+const newNav1Text = document.createTextNode('Updates');
+newNav1.setAttribute('href', '#');
+newNav1.appendChild(newNav1Text);
+nav.prepend(newNav1);
+nav.appendChild(newNav1);
 
-nav.appendChild(newTag1);
-nav.appendChild(newTag2);
-newTag1.appendChild(tag1Text);
-newTag2.appendChild(tag2Text);
-
+const newNav2 = document.createElement('a');
+const newNav2Text = document.createTextNode('Resources');
+newNav2.setAttribute('href', '#');
+newNav2.appendChild(newNav2Text);
+nav.appendChild(newNav2);
 
 let navLinks = document.querySelectorAll('nav a');
 navLinks[0].textContent = siteContent['nav']['nav-item-1']; 
@@ -62,7 +90,7 @@ navLinks[1].textContent = siteContent['nav']['nav-item-2'];
 navLinks[2].textContent = siteContent['nav']['nav-item-3']; 
 navLinks[3].textContent = siteContent['nav']['nav-item-4']; 
 navLinks[4].textContent = siteContent['nav']['nav-item-5']; 
-navLinks[5].textContent = siteContent['nav']['nav-item-6'];  
+navLinks[5].textContent = siteContent['nav']['nav-item-6']; 
 
 navLinks.forEach(function(colorValue){
   colorValue.style.color = 'green'
